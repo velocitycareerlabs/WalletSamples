@@ -1,10 +1,13 @@
 package com.vcl.wallet
+/**
+ * Created by Michael Avoyan on 18/07/2021.
+ *
+ * Copyright 2022 Velocity Career Labs inc.
+ * SPDX-License-Identifier: Apache-2.0
+ */
 
 import io.velocitycareerlabs.api.entities.VCLOffers
 
-/**
- * Created by Michael Avoyan on 18/07/2021.
- */
 object Utils {
     val TAG = Utils::class.simpleName
 

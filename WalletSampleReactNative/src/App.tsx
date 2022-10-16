@@ -1,3 +1,10 @@
+/**
+ * Created by Michael Avoyan.
+ *
+ * Copyright 2022 Velocity Career Labs inc.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import * as React from 'react';
 
