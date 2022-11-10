@@ -4,9 +4,8 @@
 //
 //  Created by Michael Avoyan on 16/03/2021.
 //
-//  Copyright 2022 Velocity Career Labs inc.
-//  SPDX-License-Identifier: Apache-2.0
-//
+// Copyright 2022 Velocity Career Labs inc.
+// SPDX-License-Identifier: Apache-2.0
 
 import UIKit
 import VCL
@@ -42,10 +41,12 @@ class ViewController: UIViewController {
         generateSignedJwtBtn.addTarget(self, action: #selector(generateSignedJwt), for: .touchUpInside)
         
         vcl.initialize(
-            environment: environment,
+            initializationDescriptor: VCLInitializationDescriptor(
+                environment: environment
+            ),
             successHandler: { [weak self] in
                 NSLog("VCL initialization succeed!")
-
+                
                 self?.showControls()
             },
             errorHandler: { [weak self] error in

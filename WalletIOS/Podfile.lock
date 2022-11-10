@@ -1,16 +1,16 @@
 PODS:
-  - VCL (1.0.1)
+  - VCL (1.1.5)
 
 DEPENDENCIES:
-  - VCL (= 1.0.1)
+  - VCL (= 1.1.5)
 
 SPEC REPOS:
   https://github.com/velocitycareerlabs/Specs.git:
     - VCL
 
 SPEC CHECKSUMS:
-  VCL: e36b04697ad84ac260d361f2475840eea9bcb506
+  VCL: aa2c0d58473fcf0af065fdfbfeab46b37d353b5e
 
-PODFILE CHECKSUM: 5d80028542caab09b1ca37728c30bde930de8824
+PODFILE CHECKSUM: d1e42a77a4e524cc24d5639bae9f9f40ee88cbd3
 
 COCOAPODS: 1.11.3
