@@ -57,5 +57,5 @@ dependencies {
 
 //    Must: be added:
     implementation "com.nimbusds:nimbus-jose-jwt:9.23"
-    implementation "io.velocitycareerlabs:vcl:1.0.1"
+    implementation "io.velocitycareerlabs:vcl:1.1.5"
 }

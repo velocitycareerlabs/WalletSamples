@@ -1,10 +1,7 @@
 /**
- * Created by Michael Avoyan on 5/2/21.
- *
  * Copyright 2022 Velocity Career Labs inc.
  * SPDX-License-Identifier: Apache-2.0
  */
-
 package com.vcl.wallet
 
 import androidx.appcompat.app.AppCompatActivity
@@ -58,8 +55,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         vcl.initialize(
-            context = this.applicationContext,
-            environment = environment,
+            initializationDescriptor = VCLInitializationDescriptor(
+                context = this.applicationContext,
+                environment = environment
+            ),
             successHandler = {
                 Log.d(TAG, "VCL initialization succeed!")
 
